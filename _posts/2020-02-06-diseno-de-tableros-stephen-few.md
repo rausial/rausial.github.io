@@ -1,5 +1,7 @@
-
 # Reseña Diseño de tableros de información (mostrar datos para entender de un vistazo)
+
+1. TOC
+{:toc}
 
 ## Introducción
 
