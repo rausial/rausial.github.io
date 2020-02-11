@@ -3,15 +3,17 @@
 
 ## Introducción
 
-El libro presenta el proceso para diseñar un tablero desde el mero principio, esto es, desde ubicar para qué quiero el tablero, donde tenemos que preguntarnos cosas muy básicas que muchas veces perdemos de vista en la prisa por empezar. La primera parte no es algo único de tableros (salvo por una que otra precisión que Stephen Few hace sobre estos), es una invitación a que nos detengamos un momento a pensar el '¿para qué queremos esto?'. En particular con productos de visualización, es fácil perdernos en lo flashy, o sea, en que algo flashy sea en el fondo nuestro objetivo y creer que lo principal sea conseguir quién nos haga un diseño deslumbrante. Lo deslumbrante, sin embargo, debe ser un efecto colateral derivado del concepto y la efectividad para transmitir la información que queremos transmitir para que las personas que utilizan el tablero hagan su trabajo mejor informados, más alertas sobre las cosas que hay que atender. El libro es un poco un manual y un poco una disertación teórica. Y mantiene un mensaje central, que tiene muchas versiones (Occam's razor en estadística, Less is More en arquitectura, KISS (Keep It Simple Stupid) pa los gringos), y en este libro: 'Elocuencia mediante la simplicidad' (Capítulo 6: Achieving Eloquence through simplicity).
+El libro presenta el proceso para diseñar un tablero desde el mero principio, esto es, desde ubicar para qué quiero el tablero, donde tenemos que preguntarnos cosas muy básicas que muchas veces perdemos de vista en la prisa por empezar. En los primeros dos capítulos define brevemente lo que son los tableros y qué no hacer cuando diseñamos uno. Los siguientes cinco capítulos no son algo único de tableros (salvo por una que otra precisión que Stephen Few hace sobre estos), es una invitación a que nos detengamos un momento a pensar el '¿para qué queremos esto?'. En particular con productos de visualización, es fácil perdernos en lo flashy, o sea, en creer que lo principal sea conseguir quién nos haga un diseño deslumbrante. Lo deslumbrante, sin embargo, debe ser un efecto colateral derivado del concepto y la efectividad para transmitir la información que queremos transmitir para que las personas que utilizan el tablero hagan su trabajo mejor informados, más alertas sobre las cosas que hay que atender. El libro es un poco un manual y un poco una disertación teórica. Y mantiene un mensaje central, que tiene muchas versiones (Occam's razor en estadística, Less is More en arquitectura, KISS (Keep It Simple Stupid) pa los gringos), y en este libro: 'Elocuencia mediante la simplicidad' (Capítulo 6: Achieving Eloquence through simplicity).
 
-Un tablero de información es, en principio, un artefacto para seguir algún proceso que nos interesa desde una perspectiva particular. En nuestro caso, el de la CONABIO, tiene que ver, creo, con un discurso. Hay que preguntarnos ¿qué queremos, que quiere la CONABIO, transmitir con esta información? ¿cuál es nuestro mensaje? La respuesta a estas preguntas será nuestra guía durante todo el desarrollo del proyecto.
+Un tablero de información es, en principio, un artefacto para seguir algún proceso que nos interesa desde una perspectiva particular. Es un punto de acceso que condensa todo en una sola pantalla, no se vale que uno tenga que darle scroll. Es, en este sentido un gran ejercicio de sintetización y de reflexión sobre qué es lo importante. 
 
-Volviendo al libro. Los primeros cinco capítulos van, progresivamente, discutiendo cómo conceptualizar el producto que vamos a desarrollar. Empezando por lo muy conceptual en términos del proyecto y terminando con los conceptos básicos de visualización que nos ayudarán a tomar decisiones sobre qué gráficas y cómo diseñarlas. En términos muy generales el flujo de los primeros capítulos es:
+En nuestro caso, el de la CONABIO, tiene que ver, creo, con un discurso. Hay que preguntarnos ¿qué queremos, que quiere la CONABIO, transmitir con esta información? ¿cuál es nuestro mensaje? La respuesta a estas preguntas será nuestra guía durante todo el desarrollo del proyecto.
+
+Volviendo al libro. Del capítulo 3 al 6 vamos, progresivamente, discutiendo cómo conceptualizar el producto que vamos a desarrollar. Empezando por lo muy elemental en términos del proyecto y terminando con los conceptos básicos de visualización que nos ayudarán a tomar decisiones sobre qué gráficas y cómo diseñarlas. En términos muy generales el flujo de los primeros capítulos es:
 
 .1 ¿Qué y para qué es un tablero de información?
 .1 ¿Qué no debemos hacer cuando diseñemos un tablero?
-.1 ¿Qué pregunta quiero responder? y ¿por qué? o ¿para qué?
+.1 ¿Quiénes son las personas que usaran la herramienta? y ¿por qué? o ¿para qué?
 .1 ¿Cuáles son las fuentes de información disponibles?
 
 ## Capítulo 1: Clarificando la visión
@@ -25,12 +27,26 @@ Mantenernos consientes de una situación. Hay tres niveles para esto:
 
 ## Capítulo 2: 13 Errores comunes
 
-Este capítulo se trata básicamente de una serie de ejemplos donde se pueden apreciar errores que van desde llevar la metáfora del tablero de coche al extremo (casi ridículo) de querer que un tablero DE INFORMACIÓN se vea como un tablero de coche. Hay otros ejemplos que muestran malas elecciones de gráficas, y como el afán de algún programador por hacer lucir el tablero por su diseño acaba siendo un desastre porque ni es diseñador y sólo mete ruido visual que no aporta nada de información. Es un buen capítulo para agarrar el feeling de todo lo que hay que evitar, (y una alerta para no dejarnos llevar por nuestros impulsos e inseguridades).
+Este capítulo se trata básicamente de una serie de ejemplos donde se pueden apreciar errores que van desde llevar la metáfora del tablero de coche al extremo (casi ridículo) de querer que un tablero DE INFORMACIÓN se vea como un tablero de coche. Hay otros ejemplos que muestran malas elecciones de gráficas, y como el afán de algún programador por hacer lucir el tablero por su diseño acaba siendo un desastre porque ni es diseñador y sólo mete ruido visual que no aporta nada de información. Es un capítulo para agarrar el feeling de lo que hay que evitar.
 
 ## Capítulo 3: Entender lo que se necesita
 
+Este capítulo inicia la discusión sobre cómo proceder, con un enfoque de lo general a lo particular. Las recomendaciones son útiles más allá de los tableros de información. Plantea algo muy obvio que, sin embargo, nos saltamos muchas veces. Definir ¿de qué va el proyecto? Y esta pregunta debe responder a quiénes va dirigido, y cuáles son las necesidades de estas personas. Si no entendemos al público y lo que necesita entonces ¿cómo vamos a tener ideas claras sobre el diseño? 
+
+Para entender esto Stephen Few propone las siguientes preguntas:
+
+* ¿Qué tan frecuentemente se va a actualizar? Por ejemplo: Diario
+* ¿Quiénes lo van a usar? Por ejemplo: Ciudadanía
+* ¿Qué va a monitorear y qué objetivos debe apoyar?
+* ¿Qué preguntas debe responder el tablero? ¿Qué acciones se deben tomar de acuerdo a las respuestas?
+* ¿Qué elementos de información debemos desplegar en el tablero? ¿Qué nos dice cada uno de esos elementos y por qué es importante? ¿A qué nivel se debe resumir o detallar  la información para dar el panorama necesario?
+* ¿Cuáles de estos elementos de información son los más importantes para lograr nuestros objetivos?
+* ¿Cuáles son los agrupamientos lógicos que se podrían utilizar para organizar los elementos de información? ¿A qué grupo pertenece cada elemento de información?
+* ¿Cuáles son las comparaciones más útiles que nos permitirán ver los elementos de información en el contexto más significativo?
+
+
 ## Capítulo 4: Consideraciones fundamentales
-Definir el público y el medio de presentación del tablero, contexto de las métricas
+Definir el espectro del público y el medio de presentación del tablero, contexto de las métricas
 
 ### Contexto de las métricas
 
