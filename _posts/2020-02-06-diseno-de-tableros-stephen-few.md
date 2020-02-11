@@ -12,8 +12,6 @@ El libro presenta el proceso para diseñar un tablero desde el mero principio, e
 * ¿Quiénes son las personas que usaran la herramienta? y ¿por qué? o ¿para qué?
 * ¿Cuáles son las fuentes de información disponibles?
 
-## Introducción del libro
-
 Un tablero de información es, en principio, un artefacto para seguir algún proceso que nos interesa desde una perspectiva particular. Es un punto de acceso que condensa todo en una sola pantalla (no se vale que uno tenga que darle scroll). Es, en cierto sentido, un gran ejercicio de sintetización y de reflexión sobre qué es lo importante. 
 
 Los capítulos 1 y 2 de 'Information Dashboard Design' nos dan una idea general de la utilidad de los tableros de información, y nos alertan que hay muchas formas en las que puede ir mal un diseño. Esto última pasa porque quienes diseñaron el tablero no consideran cosas fundamentales. Con la clásica frase  'no todo lo que brilla es oro' señala que muchos diseños fallan por concentrarse en el factor '¡guau!' en vez de utilizar los elementos visuales basándose en principios de percepción visual.
@@ -26,15 +24,13 @@ Es importante entender para qué queremos un tablero de información, la respues
 
 En el capítulo (?) Stephen Few aclara que si la información que se muestra en el tablero se actualiza con una frecuencia mayor a **un día** entonces no le llamara tablero. Pero esa restricción es sólo porque si algo se actualiza con menor frecuencia entonces el requisito de que todo se pueda ver y entender de un vistazo se relaja. 
 
-### Capítulo 2: 13 Errores comunes
-
-Este capítulo se trata básicamente de una serie de ejemplos donde se pueden apreciar errores que van desde llevar la metáfora del tablero de coche al extremo (casi ridículo) de querer que un tablero DE INFORMACIÓN se vea como un tablero de coche. Hay otros ejemplos que muestran malas elecciones de gráficas, y como el afán de algún programador por hacer lucir el tablero por su diseño acaba siendo un desastre porque ni es diseñador y sólo mete ruido visual que no aporta nada de información. Es un capítulo para agarrar el feeling de lo que hay que evitar.
+El capítulo 2 se trata de una serie de ejemplos donde se pueden apreciar errores comunes que van desde llevar la metáfora del tablero de coche al extremo (casi ridículo) de querer que un tablero **de información** se vea como un tablero de coche. Hay otros ejemplos que muestran malas elecciones de gráficas, y como el afán de algún programador por hacer lucir el tablero por su diseño acaba siendo un desastre porque ni es diseñador y sólo mete ruido visual que no aporta nada de información. Es un capítulo para agarrar el *feeling* de lo que hay que evitar.
 
 ## Fundamentos para armar un buen tablero
 
 Del capítulo 3 al 6 vamos, progresivamente, discutiendo cómo conceptualizar el producto que vamos a desarrollar. Empezando por lo muy elemental en términos del proyecto y terminando con los conceptos básicos de visualización que nos ayudarán a tomar decisiones sobre qué gráficas y cómo diseñarlas. En términos muy generales el flujo de los primeros capítulos es:
 
-### Capítulo 3: Entender lo que se necesita
+### Entender lo que se necesita (Capítulo 3)
 
 Este capítulo inicia la discusión sobre cómo proceder, con un enfoque de lo general a lo particular. Las recomendaciones son útiles más allá de los tableros de información. Plantea algo muy obvio que, sin embargo, nos saltamos muchas veces. Definir ¿de qué va el proyecto? Y esta pregunta debe responder a quiénes va dirigido, y cuáles son las necesidades de estas personas. Si no entendemos al público y lo que necesita entonces ¿cómo vamos a tener ideas claras sobre el diseño?
 
@@ -50,7 +46,8 @@ Para entender esto Stephen Few propone las siguientes preguntas:
 * ¿Cuáles son las comparaciones más útiles que nos permitirán ver los elementos de información en el contexto más significativo?
 
 
-### Capítulo 4: Consideraciones fundamentales
+### Consideraciones fundamentales (Capítulo 4)
+
 Definir el espectro del público y el medio de presentación del tablero, contexto de las métricas
 
 #### Contexto de las métricas
@@ -59,6 +56,6 @@ Dar contexto es, por ejemplo, comparar la medición actual contra algo, puede se
 
 Este capítulo habla sobre cómo implementar el mensaje. Si nuestro objetivo es, por ejemplo, ¿Cómo está progresando México hacia el cumplimiento de los compromisos 2030? Ahí ya tenemos una serie de metas contra las cuáles tendrían que ir comparadas las métricas. Pero incluso en este objetivo cabe detenerse a revisar el enfoque. Porque podríamos preguntarnos si lo queremos ver en términos absolutos, o términos de si México está mejorando (acelerando) su esfuerzo por cumplir con los objetivos.  
 
-### Capítulo 5: El poder de la percepción visual
+### El poder de la percepción visual (Capítulo 5)
 
 Este es un capítulo que brevemente revisa la teoría sobre cómo funciona nuestro sistema de percepción visual y porque es tan poderoso en términos de adquisición de información.
