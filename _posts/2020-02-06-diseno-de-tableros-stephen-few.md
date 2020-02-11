@@ -1,24 +1,25 @@
 
-# Reseña Diseño de tableros de información (mostrar datos para monitorear de un vistazo)
+# Reseña Diseño de tableros de información (mostrar datos para entender de un vistazo)
 
 ## Introducción
 
-El libro presenta el proceso para diseñar un tablero desde el mero principio, esto es, desde ubicar para qué quiero el tablero, donde tenemos que preguntarnos cosas muy básicas que muchas veces perdemos de vista en la prisa por empezar. En los primeros dos capítulos define brevemente lo que son los tableros y qué no hacer cuando diseñamos uno. Los siguientes cinco capítulos no son algo único de tableros (salvo por una que otra precisión que Stephen Few hace sobre estos), es una invitación a que nos detengamos un momento a pensar el '¿para qué queremos esto?'. En particular con productos de visualización, es fácil perdernos en lo flashy, o sea, en creer que lo principal sea conseguir quién nos haga un diseño deslumbrante. Lo deslumbrante, sin embargo, debe ser un efecto colateral derivado del concepto y la efectividad para transmitir la información que queremos transmitir para que las personas que utilizan el tablero hagan su trabajo mejor informados, más alertas sobre las cosas que hay que atender. El libro es un poco un manual y un poco una disertación teórica. Y mantiene un mensaje central, que tiene muchas versiones (Occam's razor en estadística, Less is More en arquitectura, KISS (Keep It Simple Stupid) pa los gringos), y en este libro: 'Elocuencia mediante la simplicidad' (Capítulo 6: Achieving Eloquence through simplicity).
-
-Un tablero de información es, en principio, un artefacto para seguir algún proceso que nos interesa desde una perspectiva particular. Es un punto de acceso que condensa todo en una sola pantalla, no se vale que uno tenga que darle scroll. Es, en este sentido un gran ejercicio de sintetización y de reflexión sobre qué es lo importante. 
+El libro presenta el proceso para diseñar un tablero desde el mero principio, esto es, desde ubicar para qué quiero el tablero, donde tenemos que preguntarnos cosas muy básicas que muchas veces perdemos de vista en la prisa por empezar. En los primeros dos capítulos define brevemente lo que son los tableros y qué no hacer cuando diseñamos uno. Los siguientes cinco capítulos no son algo único de tableros (salvo por una que otra precisión que Stephen Few hace sobre estos), es una invitación a que nos detengamos un momento a pensar el '¿para qué queremos esto?'. En particular con productos de visualización, es fácil perdernos en lo flashy, o sea, en creer que lo principal sea conseguir quién nos haga un diseño deslumbrante. Lo deslumbrante, sin embargo, debe ser un efecto colateral derivado del concepto y la efectividad para transmitir la información que queremos transmitir para que las personas que utilizan el tablero hagan su trabajo mejor informados, más alertas sobre las cosas que hay que atender. El libro es un poco manual y un poco una revisión de la teoría que sustenta el manual. Mantiene un mensaje central, que tiene muchas versiones en distintas disciplinas -Occam's razor en estadística, Less is More en arquitectura, KISS (Keep It Simple Stupid) en desarrollo de software- que en este libro se expresa más rimbombante como: 'Elocuencia mediante la simplicidad' (Capítulo 6: Achieving Eloquence through simplicity).
 
 En nuestro caso, el de la CONABIO, tiene que ver, creo, con un discurso. Hay que preguntarnos ¿qué queremos, que quiere la CONABIO, transmitir con esta información? ¿cuál es nuestro mensaje? La respuesta a estas preguntas será nuestra guía durante todo el desarrollo del proyecto.
 
-Volviendo al libro. Del capítulo 3 al 6 vamos, progresivamente, discutiendo cómo conceptualizar el producto que vamos a desarrollar. Empezando por lo muy elemental en términos del proyecto y terminando con los conceptos básicos de visualización que nos ayudarán a tomar decisiones sobre qué gráficas y cómo diseñarlas. En términos muy generales el flujo de los primeros capítulos es:
 
-.1 ¿Qué y para qué es un tablero de información?
-.1 ¿Qué no debemos hacer cuando diseñemos un tablero?
-.1 ¿Quiénes son las personas que usaran la herramienta? y ¿por qué? o ¿para qué?
-.1 ¿Cuáles son las fuentes de información disponibles?
+* ¿Qué y para qué es un tablero de información?
+* ¿Qué no debemos hacer cuando diseñemos un tablero?
+* ¿Quiénes son las personas que usaran la herramienta? y ¿por qué? o ¿para qué?
+* ¿Cuáles son las fuentes de información disponibles?
 
-## Capítulo 1: Clarificando la visión
+## Introducción del libro
 
-Mantenernos consientes de una situación. Hay tres niveles para esto:
+Un tablero de información es, en principio, un artefacto para seguir algún proceso que nos interesa desde una perspectiva particular. Es un punto de acceso que condensa todo en una sola pantalla (no se vale que uno tenga que darle scroll). Es, en cierto sentido, un gran ejercicio de sintetización y de reflexión sobre qué es lo importante. 
+
+Los capítulos 1 y 2 de 'Information Dashboard Design' nos dan una idea general de la utilidad de los tableros de información, pero que muchos tableros salen mal porque no consideran cosas fundamentales. Con la clásica frase de 'no todo lo que brilla es oro' señala que muchos diseños fallan por concentrarse en el factor '¡guau!' en vez de utilizar los elementos visuales basándose en principios de percepción visual.
+
+Es importante entender para qué queremos un tablero de información, la respuesta de Stephen Few es: Para mantenernos al tanto de una situación. Y para que esto suceda necesitamos cubrir tres niveles:
 
 1. Percepción de los elementos
 2. Comprensión
@@ -28,6 +29,10 @@ Mantenernos consientes de una situación. Hay tres niveles para esto:
 ## Capítulo 2: 13 Errores comunes
 
 Este capítulo se trata básicamente de una serie de ejemplos donde se pueden apreciar errores que van desde llevar la metáfora del tablero de coche al extremo (casi ridículo) de querer que un tablero DE INFORMACIÓN se vea como un tablero de coche. Hay otros ejemplos que muestran malas elecciones de gráficas, y como el afán de algún programador por hacer lucir el tablero por su diseño acaba siendo un desastre porque ni es diseñador y sólo mete ruido visual que no aporta nada de información. Es un capítulo para agarrar el feeling de lo que hay que evitar.
+
+## Fundamentos para armar un buen tablero
+
+Del capítulo 3 al 6 vamos, progresivamente, discutiendo cómo conceptualizar el producto que vamos a desarrollar. Empezando por lo muy elemental en términos del proyecto y terminando con los conceptos básicos de visualización que nos ayudarán a tomar decisiones sobre qué gráficas y cómo diseñarlas. En términos muy generales el flujo de los primeros capítulos es:
 
 ## Capítulo 3: Entender lo que se necesita
 
