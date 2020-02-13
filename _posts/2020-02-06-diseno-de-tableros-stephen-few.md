@@ -38,23 +38,28 @@ El capítulo 2 se trata de una serie de ejemplos donde se pueden apreciar errore
 
 ## Fundamentos para armar un buen tablero (capítulos 3 al 6)
 
-Del capítulo 3 al 6 vamos, progresivamente, discutiendo cómo conceptualizar el producto que vamos a desarrollar. Empezando por lo muy elemental en términos del proyecto y terminando con los conceptos básicos de visualización que nos ayudarán a tomar decisiones sobre qué gráficas y cómo diseñarlas. En términos muy generales el flujo de los primeros capítulos es:
+La idea es que siguiendo del capítulo 3 al 6 vayamos definiendo el proyecto que vamos a desarrollar. Empezando por lo fundamental y terminando con los conceptos básicos de visualización que nos ayudarán a tomar decisiones sobre qué gráficas y cómo diseñarlas. En breve el flujo de los primeros capítulos es:
 
+1. ¿Qué deberíamos considerar en términos de objetivos   
+2. 
 ### Entender lo que se necesita (Capítulo 3)
 
 Este capítulo inicia la discusión sobre cómo ir de lo general a lo particular. Las recomendaciones son útiles más allá de los tableros de información. Plantea algo muy obvio que, sin embargo, nos saltamos muchas veces. Definir ¿de qué va el proyecto? Y la respuesta debe definir a quiénes va dirigido, y cuáles son las necesidades de estas personas. Si no entendemos al público y lo que necesita entonces ¿cómo vamos a tener ideas claras sobre el diseño?
 
-Para entender esto Stephen Few propone las siguientes preguntas:
+Para entender nuestro proyecto esto el capítulo propone las siguientes preguntas:
 
-* ¿Quiénes lo van a usar? Por ejemplo: Ciudadanía
-* ¿Qué tan frecuentemente se va a actualizar? Por ejemplo: Diario
 * ¿Qué va a monitorear y qué objetivos debe apoyar?
-* ¿Qué preguntas debe responder el tablero? ¿Qué acciones se deben tomar de acuerdo a las respuestas?
-* ¿Qué elementos de información debemos desplegar en el tablero? ¿Qué nos dice cada uno de esos elementos y por qué es importante? ¿A qué nivel se debe resumir o detallar  la información para dar el panorama necesario?
+* ¿Quiénes lo van a usar?
+* ¿Qué preguntas debe responder el tablero? 
+* ¿Qué acciones se deben tomar de acuerdo a las respuestas?
+* ¿Qué elementos de información debemos desplegar en el tablero? 
+* ¿Qué nos dice cada uno de esos elementos y por qué es importante? 
+* ¿A qué nivel se debe resumir o detallar la información para dar el panorama necesario?
 * ¿Cuáles de estos elementos de información son los más importantes para lograr nuestros objetivos?
-* ¿Cuáles son los agrupamientos lógicos que se podrían utilizar para organizar los elementos de información? ¿A qué grupo pertenece cada elemento de información?
+* ¿Cuáles son los agrupamientos lógicos que se podrían utilizar para organizar los elementos de información? 
+* ¿A qué grupo pertenece cada elemento de información?
 * ¿Cuáles son las comparaciones más útiles que nos permitirán ver los elementos de información en el contexto más significativo?
-
+* ¿Qué tan frecuentemente se va a actualizar?
 
 ### Consideraciones fundamentales (Capítulo 4)
 
