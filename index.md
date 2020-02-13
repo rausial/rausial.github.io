@@ -1,7 +1,6 @@
-Hello and welcome to this blog. Edit the `index.md` file to change this content. All pages on the blog, including this one, use [Markdown](https://guides.github.com/features/mastering-markdown/). You can include images:
+Hola, sitio en proceso de definición.
 
-![Image of fast.ai logo](images/logo.png)
+Para que haya servido de algo esta visita, aquí dejo un artículo interactivo interesante y entretenido [Automatas Celulares y  Morfogénesis] (https://distill.pub/2020/growing-ca/) 
 
-## This is a title
+## Sin título
 
-And you can include links, like this [link to fast.ai](https://www.fast.ai). Posts will appear after this file. 
