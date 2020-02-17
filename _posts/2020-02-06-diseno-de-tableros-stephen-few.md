@@ -48,9 +48,9 @@ Los capítulos 1 y 2 de 'Information Dashboard Design' nos dan una idea general 
 
 Es importante entender cuándo queremos un tablero de información, la respuesta del libro es: cuando necesitamos mantenernos al tanto de una situación (situation awareness). Y, agrega, estar realmente al tanto de una situación funciona en tres niveles:
 
-    1. Percepción de los elementos del ambiente
-    2. Comprensión del la situación actual, y
-    3. Proyección del estatus a futuro
+>1. Percepción de los elementos del ambiente
+>2. Comprensión del la situación actual, y
+>3. Proyección del estatus a futuro
 
 El capítulo 2 se trata de una serie de ejemplos donde se pueden apreciar errores comunes que van desde llevar la metáfora del tablero de coche al extremo (ridículo) de querer que un tablero **de información** se vea como un tablero de coche. Hay otros ejemplos que muestran malas elecciones de gráficas, y como el afán de algún programador por hacer lucir el tablero por su diseño acaba siendo un desastre porque ni es diseñador y sólo mete ruido visual que no aporta nada de información. Es un capítulo para agarrar el *feeling* de lo que hay que evitar.
 
@@ -58,8 +58,11 @@ El capítulo 2 se trata de una serie de ejemplos donde se pueden apreciar errore
 
 La idea es seguir los capítulos del 3 al 6 para definir el proyecto que vamos a desarrollar. Empezando por lo fundamental y terminando con los conceptos básicos de visualización que nos ayudarán a tomar decisiones sobre qué gráficas y cómo diseñarlas. En breve el flujo de los primeros capítulos es:
 
-1. ¿Qué deberíamos considerar en términos de objetivos   
-2. 
+1. Entender el objetivo de la visualización a fondo  
+2. Entender qué fuentes de información se necesitan
+3. Entender las características de las personas a quienes va dirigido
+4. Entender el contexto en el que se van a enmarcar los indicadores
+5. 
 ### Entender lo que se necesita (Capítulo 3)
 
 Este capítulo inicia la discusión sobre cómo ir de lo general a lo particular. Las recomendaciones son útiles más allá de los tableros de información. Plantea algo muy obvio que, sin embargo, nos saltamos muchas veces. Definir ¿de qué va el proyecto? Y la respuesta debe definir a quiénes va dirigido, y cuáles son las necesidades de estas personas. Si no entendemos al público y lo que necesita entonces ¿cómo vamos a tener ideas claras sobre el diseño?
@@ -100,9 +103,9 @@ En este capítulo Stephen Few aclara que si la información que se muestra en el
 
 #### Contexto de las métricas
 
-Dar contexto es comparar el estado actual contra algo, puede ser la misma medida en el pasado o con respecto a un objetivo o para ver si es anómala. 
+Dar contexto es comparar el estado actual contra algo, puede ser la misma medida en el pasado, o con respecto a un objetivo, o para ver si es anómala. 
 
-El contexto que demos es una implementación del mensaje. Si nuestro objetivo es, por ejemplo, ¿cómo está progresando México hacia el cumplimiento de los compromisos de desarrollo sustentable para 2030? Ahí ya tenemos una serie de metas contra las cuales tendrían que ir comparadas las métricas. A partir de este objetivo podríamos preguntarnos, por ejemplo, si lo queremos ver en términos absolutos, o en términos de si México está mejorando (acelerando) su esfuerzo por cumplir con los objetivos. Estas comparaciones nos pueden hablar de si vamos bien o mal en algo, por eso es importante pensar contra qué debemos comparar. 
+El contexto que demos es una implementación del mensaje. Si nuestro objetivo es, por ejemplo, ¿cómo está progresando México hacia el cumplimiento de los compromisos de desarrollo sustentable para 2030? Ahí ya tenemos una serie de metas contra las cuales tendrían que ir comparadas las métricas. A partir de este objetivo podríamos preguntarnos, por ejemplo, si lo queremos ver en términos absolutos, o en términos de si México está mejorando (acelerando) su esfuerzo por cumplir con los objetivos. Estas comparaciones nos pueden hablar de si vamos bien o mal en algo, por eso es importante pensar contra qué  comparar.
 
 ### Entrándole al poder de la percepción visual (Capítulo 5)
 
@@ -110,7 +113,7 @@ Este es un capítulo que brevemente revisa la teoría sobre cómo funciona nuest
 
 ### Logrando elocuencia mediante la simplicidad (Capítulo 6)
 
-En este ya entramos en el diseño propiamente del tablero. El reto es:
+Finalmente, en este capítulo entramos en el diseño propiamente del tablero. Nuestro reto es:
 
 >Condensar una gran cantidad de datos en un espacio pequeño, y al mismo tiempo mantener claridad
 
@@ -118,19 +121,18 @@ y
 
 >Poner todo lo necesario sin sacrificar significado
 
-Previo a esto está otro reto básico (que no es exclusivo de los tableros):
+Claro asumiendo que hemos cumplido con otro reto básico (que no es exclusivo de los tableros):
 
 >Elegir los datos adecuados para el objetivo
 
-
-Los tableros son para decirle a la gente lo que está pasando, deben cumplir con su tarea de tal forma resaltan cualquier cosa que requiere la atención inmediata del usuario. Y dado tienen muy poco espacio para hacer esto requieren mucha precisión. 
+Los tableros son para decirle a la gente lo que está pasando, deben cumplir con su tarea de tal forma resaltan cualquier cosa que requiere la atención inmediata del usuario. Y dado que tienen muy poco espacio para hacer esto requieren mucha precisión. 
 
 Un tablero bien hecho debe comunicar información que está:
 
-1. Excepcionalmente bien organizada
-2. Condensada, principalmente en resúmenes
-3. Específica de la tarea en curso y acomodada para comunicarle claramente a quienes lo usen
-4. Desplegados usando, usualmente, medios conscisos y pequeños que comunican la información de la forma más clara y directa posible
+>1. Excepcionalmente bien organizada
+>2. Condensada, principalmente en resúmenes
+>3. Específica de la tarea en curso y acomodada para comunicarle claramente a quienes lo usen
+>4. Desplegados usando, usualmente, medios conscisos y pequeños que comunican la información de la forma más clara y directa posible
 
 Son ante todo una herramienta que da un vistazo de nivel alto a la información sobre el estado de las cosas. Deben proveer también acceso rápido y fácil a la información adicional que se necesita para responder a cualquier evento.
 
