@@ -7,7 +7,7 @@
 
 ---
 
-Los tableros de información son recursos de visualización de información que nos permiten darle seguimiento a procesos que necesitamos mantener en buen curso. Sí, como un coche o un avión donde mientras manejamos tenemos que estar al tanto de: la gasolina, nuestra velocidad, y, en general, si todo parece estar funcionando para llegar a nuestro destino sin problemas. Si vemos, por ejemplo, que se está acabando la gasolina, entonces analizamos si es necesario ir a cargar en ese momento o podemos ir más adelante. El medidor de gasolina nos da información sobre nuestro auto que evaluamos y decidimos si hay que actuar. Si el tablero prende el foco de que se está acabando la gasolina, entonces tenemos que re-evaluar y quizá lo más recomendable, ahora sí, sea ir a una gasolinera. 
+Los tableros de información son recursos de visualización de información para seguir el progreso de procesos que necesitamos mantener en buen curso para lograr algún objetivo. Sí, como un coche o un avión donde mientras manejamos tenemos que estar al tanto de: la gasolina, nuestra velocidad, y, en general, si todo parece estar funcionando para llegar a nuestro destino sin problemas. Si vemos, por ejemplo, que se está acabando la gasolina, entonces analizamos si es necesario ir a cargar en ese momento o podemos ir más adelante. El medidor de gasolina nos da información sobre nuestro auto que evaluamos y según nuestra evaluación decidimos si hay que actuar. Si el tablero prende el foco de que se está acabando la gasolina, entonces tenemos que re-evaluar y quizá lo más recomendable, ahora sí, sea ir a una gasolinera. 
 
 ---
 
@@ -15,13 +15,13 @@ La CONABIO tiene una gran acerbo de información sobre la biodiversidad en Méxi
 
 ---
 
-El libro presenta un camino para diseñar un tablero desde el mero principio. Esto es, comienza desde el trabajo que necesitamos realizar para definir bien para qué queremos el tablero. En los primeros dos capítulos define brevemente lo que son los tableros y qué no hacer cuando diseñamos uno. Los siguientes cuatro capítulos son particular es una invitación constante a que nos detengamos a pensar el '¿para qué queremos esto?'. En este texto nos concentraremos en estos capítulos, que plantean los fundamentos para tener un proyecto bien especificado. Todo el trabajo que se debe hacer en esta etapa es de pizarrón, ni siquiera involucra diseño de visualizaciones, es sobre las definiciones a las que tenemos que llegar para empezar a imaginar cómo se ve lo que necesitamos. El último de esta sección da una serie de lineamientos para empezar, ahora sí, con el diseño. 
+El libro presenta un camino para diseñar un tablero desde el mero principio. Esto es, comienza desde el trabajo que necesitamos realizar para definir bien para qué queremos el tablero. En los primeros dos capítulos define brevemente lo que son los tableros y qué no hacer cuando diseñamos uno. Los siguientes tres capítulos en particular son una invitación constante a que nos detengamos a pensar el '¿para qué queremos esto?'. En este texto nos concentraremos en estos capítulos, que plantean los fundamentos para tener un proyecto bien especificado. El sexto capítulo, con el que cerraremos esta revisión, presenta los lineamientos para dibujar el boceto de lo que será nuestro tablero final. Todo el trabajo que se deriva de estos capítulos es de pizarrón, salvo el sexto capítulo 'Achieving Eloquence through Simplicity', ni siquiera involucran diseño de visualizaciones, se trata principalmente sobre las definiciones a las que tenemos que llegar para empezar a imaginar cómo es lo que necesitamos.
 
 ---
 
 #### Definición de tableros
 
-El libro tiene una definición muy especifica de lo que es un tablero, que en nuestro caso CONABIO no se ajusta perfectamente, ya que Stephen Few requiere que el objetivo sea dar seguimiento a un proceso que requiera acción casi inmediata, donde al menos se requiere actualizar diario la información. El monitoreo de incendios caería en esa categoría, sin embrago, en temas de seguimiento de la conservación de la biodiversidad las temporalidades son distintas, ya que no tiene información que se actualice tan rápido y las acciones que se requieren son de mediano a largo plazo. Por otro lado, en el caso de nuestro proyecto es muy importante la perspectiva del mensaje, que creo se podría dividir en los elementos: tema, punto de vista, perspectivas del futuro, y acciones posibles. Por ejemplo: 
+El libro tiene una definición muy especifica de lo que es un tablero, que en nuestro caso (CONABIO) no se ajusta perfectamente, ya que Stephen Few requiere que el objetivo sea dar seguimiento a un proceso que requiera acción casi inmediata, donde al menos se requiere actualizar diario la información. El monitoreo de incendios caería en esa categoría, sin embrago, en temas de seguimiento de la conservación de la biodiversidad las temporalidades son distintas, ya que no tiene información que se actualice tan rápido y las acciones que se requieren son de mediano a largo plazo. Por otro lado, en el caso de nuestro proyecto es muy importante la perspectiva del mensaje, que creo se podría dividir en los elementos: tema, punto de vista, perspectivas del futuro, y acciones posibles. Por ejemplo: 
 
 ---
 
@@ -31,7 +31,11 @@ Biodiversidad | Conservación | Cobertura actual forestal y tendencias en la def
 
 ---
 
-Tener claros los objetivos nos protege de caer en un error común, en particular con productos de visualización, que es perdernos en lo flashy, o sea, buscar un diseño deslumbrante. Lo deslumbrante debe ser un efecto colateral derivado del concepto y la efectividad para transmitir la información que queremos transmitir para que las personas que utilizan el tablero hagan su trabajo mejor informados, más alertas sobre las cosas que hay que atender. 
+Aún cuando lo que buscamos no es un tablero de información en el sentido estricto, comparte la mayoría de las características de uno.
+
+#### Definir objetivos del tablero
+
+Tener claros los objetivos nos protege de caer en un error común, que es -en particular con productos de visualización-, perdernos en lo flashy, o sea, buscar un diseño deslumbrante con decoraciones y efectos. Lo deslumbrante debe ser un efecto colateral derivado del concepto y la efectividad para transmitir la información que queremos transmitir para que las personas que utilizan el tablero hagan su trabajo mejor informados, más alertas sobre las cosas que hay que atender. 
 
 El libro es un poco manual y un poco una revisión de la teoría que sustenta el manual. Mantiene un mensaje central, que tiene muchas versiones en distintas disciplinas -Occam's razor, Less is More, KISS (Keep It Simple Stupid)- que en este libro se expresa un poco rimbombantemente como: 'Elocuencia mediante la simplicidad' (Capítulo 6: Achieving Eloquence through simplicity).
 
@@ -52,20 +56,21 @@ Es importante entender cuándo queremos un tablero de información, la respuesta
 >2. Comprensión del la situación actual, y
 >3. Proyección del estatus a futuro
 
-El capítulo 2 se trata de una serie de ejemplos donde se pueden apreciar errores comunes que van desde llevar la metáfora del tablero de coche al extremo (ridículo) de querer que un tablero **de información** se vea como un tablero de coche. Hay otros ejemplos que muestran malas elecciones de gráficas, y como el afán de algún programador por hacer lucir el tablero por su diseño acaba siendo un desastre porque ni es diseñador y sólo mete ruido visual que no aporta nada de información. Es un capítulo para agarrar el *feeling* de lo que hay que evitar.
+El capítulo 2 se trata de una serie de ejemplos donde se pueden apreciar errores comunes que van desde llevar la metáfora del tablero de coche al extremo (ridículo) de querer que un tablero **de información** se vea como un tablero de coche. Hay otros ejemplos que muestran malas elecciones de gráficas, y cómo el afán de hacer lucir el tablero por su diseño acaba siendo un desastre de ruido visual que dificulta el acceso a la información. Es un capítulo para agarrar el *feeling* de lo que hay que evitar.
 
 ## Fundamentos para armar un buen tablero (capítulos 3 al 6)
 
-La idea es seguir los capítulos del 3 al 6 para definir el proyecto que vamos a desarrollar. Empezando por lo fundamental y terminando con los conceptos básicos de visualización que nos ayudarán a tomar decisiones sobre qué gráficas y cómo diseñarlas. En breve el flujo de los primeros capítulos es:
+Los capítulos del 3 al 6 marcan una ruta para definir el proyecto. Empezando por lo fundamental y terminando con los conceptos básicos de visualización que nos ayudarán a tomar decisiones sobre qué gráficas y cómo diseñarlas. En breve el flujo de los primeros capítulos es:
 
-1. Entender el objetivo de la visualización a fondo  
-2. Entender qué fuentes de información se necesitan
-3. Entender las características de las personas a quienes va dirigido
-4. Entender el contexto en el que se van a enmarcar los indicadores
-5. 
+1. Tema: Entender el objetivo de la visualización a fondo  
+2. Datos: Entender qué fuentes de información se necesitan
+3. Público: Entender las características de las personas a quienes va dirigido
+4. Mensaje: Entender el contexto en el que se van a enmarcar los indicadores
+5. Diseño: Una vez entendidos los puntos anteriores comenzamos con el diseño a nivel de boceto
+
 ### Entender lo que se necesita (Capítulo 3)
 
-Este capítulo inicia la discusión sobre cómo ir de lo general a lo particular. Las recomendaciones son útiles más allá de los tableros de información. Plantea algo muy obvio que, sin embargo, nos saltamos muchas veces. Definir ¿de qué va el proyecto? Y la respuesta debe definir a quiénes va dirigido, y cuáles son las necesidades de estas personas. Si no entendemos al público y lo que necesita entonces ¿cómo vamos a tener ideas claras sobre el diseño?
+Este capítulo inicia la discusión sobre cómo ir de lo general a lo particular. Las recomendaciones son útiles más allá de los tableros de información. El principio es algo muy obvio que, sin embargo, nos saltamos muchas veces. Definir ¿de qué va el producto? Y la respuesta debe definir a quiénes va dirigido, y cuáles son las necesidades de estas personas. Si no entendemos al público y lo que necesita entonces ¿cómo vamos a tener ideas claras sobre el diseño? A esto podemos agregar ¿cuál es el mensaje que queremos comunicar?
 
 El consejo general para empezar es: 'enfocarnos en los objetivos, no en el medio'. El tablero (o cualquier visualización para el caso) es un medio, es el mensajero, de ... ¿cuál es **el mensaje**?
 
@@ -131,14 +136,16 @@ Un tablero bien hecho debe comunicar información que está:
 
 >1. Excepcionalmente bien organizada
 >2. Condensada, principalmente en resúmenes
->3. Específica de la tarea en curso y acomodada para comunicarle claramente a quienes lo usen
->4. Desplegados usando, usualmente, medios conscisos y pequeños que comunican la información de la forma más clara y directa posible
+>3. Completamente enmarcada en la tarea en curso y acomodada para comunicarle claramente a quienes lo usen
+>4. Desplegada usando, usualmente, medios concisos que comunican la información de la forma más clara y directa posible
 
-Son ante todo una herramienta que da un vistazo de nivel alto a la información sobre el estado de las cosas. Deben proveer también acceso rápido y fácil a la información adicional que se necesita para responder a cualquier evento.
+Un tablero, es una ventana que da un vistazo de alto nivel a la información sobre el estado de las cosas. Al mismo tiempo debe proveer acceso rápido y fácil a la información adicional que se necesita para responder a cualquier evento.
 
-Mantener óptima la razón de datos a pixeles, buscando eliminar lo más posible los pixeles no-dato.
+#### Pixeles con datos / Pixeles sin datos (proporción de pixeles a datos)
+
+Mantener óptima la razón de datos a pixeles, buscando eliminar lo más posible los pixeles sin datos.
 
 #### El diseño de un tablero es un proceso iterativo. 
 
-* Creamos un ejemplo falso de nuestro tablero y lo mejoramos a través de una serie de revisiones, cada una seguida de evaluación nueva que nos lleva a un rediseño. 
+> Creamos un ejemplo falso de nuestro tablero y lo mejoramos a través de una serie de revisiones, cada una seguida de evaluación nueva que nos lleva a un rediseño. 
 
